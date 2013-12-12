@@ -39,7 +39,7 @@ In the page_home.php take the following before <!-- Page : Blog | Articles Limit
 
 <!-- End -->
 
-In the page_home.php take the following in <!-- Page : Blog | Articles Limit : 3 --> after the <ion:content helper="text:word_limiter:10" />.
+In the page_home.php take the following in <!-- Page : Blog | Articles Limit : 3 --> after the ion:content
 <!-- Begin -->
 <!-- In article -->
 <ion:authors>
