@@ -15,7 +15,7 @@ This is a Demo module built from the original Demo module by Michel-Ange, and bu
 
 ### Tags examples
 Use the original bootstrap theme.
-In the page_home.php take the following before <!-- Page : Blog | Articles Limit : 3 -->.
+In the view page_home.php take the following before <!-- Page : Blog | Articles Limit : 3 -->.
 <!-- Begin -->
 <!-- All authors -->
 		<h2>Our Authors</h2>
@@ -42,9 +42,17 @@ In the page_home.php take the following before <!-- Page : Blog | Articles Limit
 In the page_home.php take the following in <!-- Page : Blog | Articles Limit : 3 --> after the ion:content
 <!-- Begin -->
 <!-- In article -->
-<ion:authors>
-    <ion:author field="name" tag="p" />
-</ion:authors>
+											<ul>
+												<ion:authors>
+														<li><ion:author field="name" /> -- <ion:author field="id_module_demo_author" /></li>
+												</ion:authors>
+											</ul>
 <!-- End -->
 
+In Demo module admin attach same pictures to authors, then attach authors to the articles.
+
+And you'll see:
+![Screenshot](https://github.com/lremenyi/Ionize_module_DemoWithMedias/tree/master/assets/images/Screen20131212.jpg)
+
 Good luck!
+ReL@
